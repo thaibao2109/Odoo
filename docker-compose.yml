@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:14
+    environment:
+      - POSTGRES_USER=odoo
+      - POSTGRES_PASSWORD=odoo
+      - POSTGRES_DB=postgres
+    volumes:
+      - odoo-db-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  odoo:
+    image: odoo:17
+    depends_on:
+      - db
+    ports:
+      - "8069:8069"
+    environment:
+      - HOST=db
+      - USER=odoo
+      - PASSWORD=odoo
+    volumes:
+      - ./order_progress_management:/mnt/extra-addons/order_progress_management
+      - odoo-web-data:/var/lib/odoo
+    command: -- --addons-path=/mnt/extra-addons,/usr/lib/python3/dist-packages/odoo/addons
+
+volumes:
+  odoo-db-data:
+  odoo-web-data:

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Extend Product Variant Form View -->
+    <record id="view_product_product_form_sku" model="ir.ui.view">
+        <field name="name">product.product.form.sku</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_normal_form_view"/>
+        <field name="arch" type="xml">
+            <!-- Ẩn button action_setup_attributes_variants nếu có (từ template view inheritance) -->
+            <xpath expr="//button[@name='action_setup_attributes_variants']" position="replace"/>
+            
+            <!-- Add auto SKU field after default_code -->
+            <xpath expr="//field[@name='default_code']" position="after">
+                <field name="auto_sku" 
+                       string="Mã SKU (Tự động)" 
+                       readonly="1"
+                       style="font-weight: bold; color: #875a7b;"/>
+                <div class="alert alert-info" role="alert" style="margin: 5px 0; padding: 5px; font-size: 12px;">
+                    <strong>SKU tự động:</strong> Mã SKU được tạo từ template code và các giá trị attributes.
+                    <br/>
+                    <strong>Công thức:</strong> Template Code + Đường kính + Chiều dài + ...
+                </div>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Add auto_sku column to variant tree view -->
+    <record id="view_product_product_tree_sku" model="ir.ui.view">
+        <field name="name">product.product.tree.sku</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_variant_easy_edit_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='default_code']" position="after">
+                <field name="auto_sku" string="SKU (Tự động)" optional="show"/>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Search view for auto_sku -->
+    <record id="view_product_product_search_sku" model="ir.ui.view">
+        <field name="name">product.product.search.sku</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_search_form_view"/>
+        <field name="arch" type="xml">
+            <!-- Add auto_sku to search fields -->
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="auto_sku" string="Mã SKU tự động"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

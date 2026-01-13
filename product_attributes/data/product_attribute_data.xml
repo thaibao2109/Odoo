@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Product Attribute Types -->
+    <record id="attr_type_product_type" model="product.attribute.type">
+        <field name="name">Loại sản phẩm</field>
+        <field name="code">TYPE</field>
+        <field name="attribute_type">product_type</field>
+        <field name="sequence">1</field>
+    </record>
+
+    <record id="attr_type_standard" model="product.attribute.type">
+        <field name="name">Tiêu chuẩn</field>
+        <field name="code">STD</field>
+        <field name="attribute_type">standard</field>
+        <field name="sequence">2</field>
+    </record>
+
+    <record id="attr_type_grade" model="product.attribute.type">
+        <field name="name">Cấp bền</field>
+        <field name="code">GRADE</field>
+        <field name="attribute_type">grade</field>
+        <field name="sequence">3</field>
+    </record>
+
+    <record id="attr_type_size" model="product.attribute.type">
+        <field name="name">Kích thước</field>
+        <field name="code">SIZE</field>
+        <field name="attribute_type">size</field>
+        <field name="sequence">4</field>
+    </record>
+
+    <record id="attr_type_surface" model="product.attribute.type">
+        <field name="name">Bề mặt</field>
+        <field name="code">SURFACE</field>
+        <field name="attribute_type">surface</field>
+        <field name="sequence">5</field>
+    </record>
+
+    <record id="attr_type_special" model="product.attribute.type">
+        <field name="name">Đặc biệt</field>
+        <field name="code">SPECIAL</field>
+        <field name="attribute_type">special</field>
+        <field name="sequence">6</field>
+    </record>
+
+    <!-- Product Type Values -->
+    <record id="attr_value_hhb" model="product.attribute.value">
+        <field name="name">Heavy hex bolt</field>
+        <field name="abbreviation">HHB</field>
+        <field name="explanation_vi">Bulong lục giác hạng nặng</field>
+        <field name="explanation_en">Heavy hex bolt</field>
+        <field name="attribute_type_id" ref="attr_type_product_type"/>
+    </record>
+
+    <record id="attr_value_sb" model="product.attribute.value">
+        <field name="name">Stub bolt</field>
+        <field name="abbreviation">SB</field>
+        <field name="explanation_vi">Thanh ren/Guzong</field>
+        <field name="explanation_en">Stub bolt</field>
+        <field name="attribute_type_id" ref="attr_type_product_type"/>
+    </record>
+
+    <record id="attr_value_chb" model="product.attribute.value">
+        <field name="name">Countersunk Head Bolt</field>
+        <field name="abbreviation">CHB</field>
+        <field name="explanation_vi">Bulong lục giác chìm đầu bằng</field>
+        <field name="explanation_en">Countersunk Head Bolt</field>
+        <field name="attribute_type_id" ref="attr_type_product_type"/>
+    </record>
+
+    <record id="attr_value_fn" model="product.attribute.value">
+        <field name="name">Flange Nut</field>
+        <field name="abbreviation">FN</field>
+        <field name="explanation_vi">Tán liền long đền</field>
+        <field name="explanation_en">Flange Nut</field>
+        <field name="attribute_type_id" ref="attr_type_product_type"/>
+    </record>
+
+    <record id="attr_value_gp" model="product.attribute.value">
+        <field name="name">Gusset Plate</field>
+        <field name="abbreviation">GP</field>
+        <field name="explanation_vi">Bản mã</field>
+        <field name="explanation_en">Gusset Plate</field>
+        <field name="attribute_type_id" ref="attr_type_product_type"/>
+    </record>
+
+    <record id="attr_value_ln" model="product.attribute.value">
+        <field name="name">Lock nut</field>
+        <field name="abbreviation">LN</field>
+        <field name="explanation_vi">Đai ốc keo/Tán keo</field>
+        <field name="explanation_en">Lock nut</field>
+        <field name="attribute_type_id" ref="attr_type_product_type"/>
+    </record>
+
+    <!-- Standard Values -->
+    <record id="attr_value_a194" model="product.attribute.value">
+        <field name="name">ASTM A194</field>
+        <field name="abbreviation">A194</field>
+        <field name="explanation_vi">ASTM A194</field>
+        <field name="explanation_en">ASTM A194</field>
+        <field name="attribute_type_id" ref="attr_type_standard"/>
+    </record>
+
+    <record id="attr_value_d933" model="product.attribute.value">
+        <field name="name">DIN 933</field>
+        <field name="abbreviation">D933</field>
+        <field name="explanation_vi">DIN 933</field>
+        <field name="explanation_en">DIN 933</field>
+        <field name="attribute_type_id" ref="attr_type_standard"/>
+    </record>
+
+    <record id="attr_value_f3125" model="product.attribute.value">
+        <field name="name">ASTM F3125</field>
+        <field name="abbreviation">F3125</field>
+        <field name="explanation_vi">ASTM F3125</field>
+        <field name="explanation_en">ASTM F3125</field>
+        <field name="attribute_type_id" ref="attr_type_standard"/>
+    </record>
+
+    <record id="attr_value_a193m" model="product.attribute.value">
+        <field name="name">ASTM A193M</field>
+        <field name="abbreviation">A193M</field>
+        <field name="explanation_vi">ASTM A193M</field>
+        <field name="explanation_en">ASTM A193M</field>
+        <field name="attribute_type_id" ref="attr_type_standard"/>
+    </record>
+
+    <!-- Grade Values -->
+    <record id="attr_value_b7" model="product.attribute.value">
+        <field name="name">Grade B7</field>
+        <field name="abbreviation">B7</field>
+        <field name="explanation_vi">Gr B7</field>
+        <field name="explanation_en">Grade B7</field>
+        <field name="attribute_type_id" ref="attr_type_grade"/>
+    </record>
+
+    <record id="attr_value_a325" model="product.attribute.value">
+        <field name="name">Grade A325</field>
+        <field name="abbreviation">A325</field>
+        <field name="explanation_vi">Grade A325</field>
+        <field name="explanation_en">Grade A325</field>
+        <field name="attribute_type_id" ref="attr_type_grade"/>
+    </record>
+
+    <record id="attr_value_2h" model="product.attribute.value">
+        <field name="name">Grade 2H</field>
+        <field name="abbreviation">2H</field>
+        <field name="explanation_vi">Grade 2H</field>
+        <field name="explanation_en">Grade 2H</field>
+        <field name="attribute_type_id" ref="attr_type_grade"/>
+    </record>
+
+    <!-- Size Values -->
+    <record id="attr_value_m16" model="product.attribute.value">
+        <field name="name">M16</field>
+        <field name="abbreviation">M16</field>
+        <field name="explanation_vi">đường kính 16</field>
+        <field name="explanation_en">Diameter 16</field>
+        <field name="attribute_type_id" ref="attr_type_size"/>
+    </record>
+
+    <record id="attr_value_l300" model="product.attribute.value">
+        <field name="name">L300</field>
+        <field name="abbreviation">L300</field>
+        <field name="explanation_vi">Chiều dài 300</field>
+        <field name="explanation_en">Length 300</field>
+        <field name="attribute_type_id" ref="attr_type_size"/>
+    </record>
+
+    <!-- Surface Values -->
+    <record id="attr_value_ptfe" model="product.attribute.value">
+        <field name="name">PTFE/Xylan/Teflon</field>
+        <field name="abbreviation">PTFE</field>
+        <field name="explanation_vi">PTFE Coating</field>
+        <field name="explanation_en">PTFE/Xylan/Teflon</field>
+        <field name="attribute_type_id" ref="attr_type_surface"/>
+    </record>
+
+    <record id="attr_value_hdg" model="product.attribute.value">
+        <field name="name">Hot dip Galvanized</field>
+        <field name="abbreviation">HDG</field>
+        <field name="explanation_vi">Mạ kẽm nhúng nóng</field>
+        <field name="explanation_en">Hot dip Galvanized</field>
+        <field name="attribute_type_id" ref="attr_type_surface"/>
+    </record>
+
+    <record id="attr_value_zp" model="product.attribute.value">
+        <field name="name">Zinc Plated</field>
+        <field name="abbreviation">ZP</field>
+        <field name="explanation_vi">Mạ kẽm điện phân</field>
+        <field name="explanation_en">Zinc Plated</field>
+        <field name="attribute_type_id" ref="attr_type_surface"/>
+    </record>
+
+</odoo>

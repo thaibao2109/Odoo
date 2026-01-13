@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Product Attribute Type Views -->
+    <record id="view_product_attribute_type_tree" model="ir.ui.view">
+        <field name="name">product.attribute.type.tree</field>
+        <field name="model">product.attribute.type</field>
+        <field name="arch" type="xml">
+            <tree string="Loại thuộc tính">
+                <field name="sequence" widget="handle"/>
+                <field name="name"/>
+                <field name="code"/>
+                <field name="attribute_type"/>
+                <field name="value_count"/>
+                <field name="active" widget="boolean_toggle"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_product_attribute_type_form" model="ir.ui.view">
+        <field name="name">product.attribute.type.form</field>
+        <field name="model">product.attribute.type</field>
+        <field name="arch" type="xml">
+            <form string="Loại thuộc tính">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="code"/>
+                            <field name="attribute_type"/>
+                            <field name="sequence"/>
+                        </group>
+                        <group>
+                            <field name="active"/>
+                            <field name="value_count" readonly="1"/>
+                        </group>
+                    </group>
+                    <field name="description" placeholder="Mô tả về loại thuộc tính này..."/>
+                    <notebook>
+                        <page string="Giá trị thuộc tính">
+                            <field name="value_ids" nolabel="1">
+                                <tree>
+                                    <field name="sequence" widget="handle"/>
+                                    <field name="abbreviation"/>
+                                    <field name="name"/>
+                                    <field name="explanation_vi"/>
+                                    <field name="explanation_en"/>
+                                    <field name="active" widget="boolean_toggle"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Product Attribute Value Views -->
+    <record id="view_product_attribute_value_tree" model="ir.ui.view">
+        <field name="name">product.attribute.value.tree</field>
+        <field name="model">product.attribute.value</field>
+        <field name="arch" type="xml">
+            <tree string="Giá trị thuộc tính" decoration-muted="active == False">
+                <field name="sequence" widget="handle"/>
+                <field name="attribute_type_id"/>
+                <field name="abbreviation"/>
+                <field name="name"/>
+                <field name="explanation_vi"/>
+                <field name="explanation_en"/>
+                <field name="active" widget="boolean_toggle"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_product_attribute_value_form" model="ir.ui.view">
+        <field name="name">product.attribute.value.form</field>
+        <field name="model">product.attribute.value</field>
+        <field name="arch" type="xml">
+            <form string="Giá trị thuộc tính">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="attribute_type_id" options="{'no_create': False}"/>
+                            <field name="abbreviation" placeholder="VD: HHB, A193M, B7"/>
+                            <field name="name"/>
+                            <field name="sequence"/>
+                        </group>
+                        <group>
+                            <field name="active"/>
+                            <field name="color" widget="color_picker"/>
+                        </group>
+                    </group>
+                    <group>
+                        <field name="explanation_vi" placeholder="Giải thích bằng tiếng Việt..."/>
+                        <field name="explanation_en" placeholder="English explanation..."/>
+                    </group>
+                    <field name="notes" placeholder="Ghi chú bổ sung..."/>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_product_attribute_value_search" model="ir.ui.view">
+        <field name="name">product.attribute.value.search</field>
+        <field name="model">product.attribute.value</field>
+        <field name="arch" type="xml">
+            <search string="Tìm kiếm giá trị thuộc tính">
+                <field name="name"/>
+                <field name="abbreviation"/>
+                <field name="attribute_type_id"/>
+                <field name="explanation_vi"/>
+                <filter string="Active" name="active" domain="[('active', '=', True)]"/>
+                <filter string="Inactive" name="inactive" domain="[('active', '=', False)]"/>
+                <group expand="0" string="Group By">
+                    <filter string="Loại thuộc tính" name="group_by_type" context="{'group_by': 'attribute_type_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Actions -->
+    <record id="action_product_attribute_type" model="ir.actions.act_window">
+        <field name="name">Loại thuộc tính</field>
+        <field name="res_model">product.attribute.type</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Tạo loại thuộc tính mới
+            </p>
+            <p>
+                Quản lý các loại thuộc tính sản phẩm như: Loại sản phẩm, Tiêu chuẩn, Cấp bền, Kích thước, Bề mặt, Đặc biệt.
+            </p>
+        </field>
+    </record>
+
+    <record id="action_product_attribute_value" model="ir.actions.act_window">
+        <field name="name">Giá trị thuộc tính</field>
+        <field name="res_model">product.attribute.value</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">{'search_default_active': 1}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Tạo giá trị thuộc tính mới
+            </p>
+            <p>
+                Quản lý các giá trị cụ thể cho từng loại thuộc tính. Ví dụ: HHB (Heavy hex bolt), A193M (ASTM A193M), B7 (Grade B7).
+            </p>
+        </field>
+    </record>
+
+</odoo>

@@ -1,0 +1,21 @@
+# Odoo
+*.pyc
+__pycache__/
+*.log
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Database
+*.db
+*.sqlite
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Odoo specific
+odoo.log
+*.conf.local

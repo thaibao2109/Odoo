@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Form View for Order Progress Management -->
+    <record id="view_order_progress_form" model="ir.ui.view">
+        <field name="name">sale.order.progress.form</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <!-- Add progress status bar after order name -->
+            <xpath expr="//field[@name='name']" position="after">
+                <div class="oe_button_box" name="button_box">
+                    <button name="action_sync_order" type="object" string="ĐỒNG BỘ LẠI" class="oe_stat_button" icon="fa-refresh"/>
+                    <button name="action_create_purchase_request" type="object" string="TẠO YÊU CẦU MUA HÀNG" class="oe_stat_button" icon="fa-shopping-cart"/>
+                </div>
+                
+                <!-- Progress Status Bar - Show all buttons, highlight current -->
+                <div class="progress_status_bar">
+                    <field name="progress_status" invisible="1"/>
+                    <div class="status_steps">
+                        <button type="object" name="set_status_new" 
+                                class="status_step" 
+                                data-status="new">
+                            MỚI
+                        </button>
+                        <button type="object" name="set_status_in_production" 
+                                class="status_step"
+                                data-status="in_production">
+                            ĐANG SX
+                        </button>
+                        <button type="object" name="set_status_external_purchase" 
+                                class="status_step"
+                                data-status="external_purchase">
+                            MUA NGOÀI
+                        </button>
+                        <button type="object" name="set_status_not_delivered" 
+                                class="status_step"
+                                data-status="not_delivered">
+                            CHƯA GIAO
+                        </button>
+                        <button type="object" name="set_status_delivered" 
+                                class="status_step"
+                                data-status="delivered">
+                            ĐÃ GIAO
+                        </button>
+                        <button type="object" name="set_status_completed" 
+                                class="status_step"
+                                data-status="completed">
+                            HOÀN THÀNH
+                        </button>
+                        <button type="object" name="set_status_cancelled" 
+                                class="status_step"
+                                data-status="cancelled">
+                            HỦY
+                        </button>
+                    </div>
+                </div>
+            </xpath>
+
+            <!-- Replace the main form content with our custom layout -->
+            <xpath expr="//sheet" position="replace">
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" readonly="1"/>
+                        </h1>
+                    </div>
+                    
+                    <!-- Two Column Layout -->
+                    <group>
+                        <!-- Left Column -->
+                        <group col="2" string="Người phụ trách">
+                            <field name="execution_date"/>
+                            <field name="quotation_staff_id"/>
+                            <field name="sales_staff_id"/>
+                            <field name="estimated_delivery_date_mfg"/>
+                            <field name="internal_mfg_note" placeholder="Ghi chú nội bộ sản xuất..."/>
+                        </group>
+
+                        <!-- Right Column - Order Details -->
+                        <group col="2" string="Chi tiết đơn hàng">
+                            <field name="name" readonly="1"/>
+                            <field name="customer_pays_shipping"/>
+                            <field name="commitment_date" string="Ngày giao hàng"/>
+                            <field name="partner_id" string="Khách hàng"/>
+                        </group>
+                    </group>
+
+                    <!-- BÁO GIÁ Section -->
+                    <group string="BÁO GIÁ">
+                        <field name="quotation_note" placeholder="Ghi chú báo giá..."/>
+                        <field name="quotation_attachment_ids" widget="many2many_tags"/>
+                    </group>
+
+                    <!-- MUA HÀNG Section -->
+                    <group string="MUA HÀNG">
+                        <field name="purchasing_note" placeholder="Ghi chú mua hàng..."/>
+                        <field name="purchase_request_id"/>
+                        <field name="purchase_deadline"/>
+                        <field name="purchase_completion_date"/>
+                        <field name="purchase_note" placeholder="Ghi chú..."/>
+                    </group>
+
+                    <!-- MẪU IN CHỨNG NHẬN XUẤT XƯỞNG -->
+                    <group string="MẪU IN CHỨNG NHẬN XUẤT XƯỞNG">
+                        <field name="project_name"/>
+                        <field name="customer_name_english"/>
+                    </group>
+
+                    <!-- KHO and SẢN XUẤT in same row -->
+                    <group>
+                        <group string="KHO">
+                            <field name="inventory_note" placeholder="Ghi chú kho..."/>
+                        </group>
+                        <group string="SẢN XUẤT">
+                            <field name="production_request_id"/>
+                            <field name="warehouse_entry_date"/>
+                            <field name="production_note" placeholder="Ghi chú..."/>
+                        </group>
+                    </group>
+
+                    <!-- Product Lines with Tabs -->
+                    <notebook>
+                        <page string="Chi tiết bom hàng">
+                            <field name="order_line" nolabel="1" context="{'default_order_id': active_id}">
+                                <tree editable="bottom" string="Danh sách sản phẩm">
+                                    <field name="sequence_number" string="STT" readonly="1"/>
+                                    <field name="mfg_note" string="Ghi chú sx"/>
+                                    <field name="product_id" string="Chi tiết"/>
+                                    <field name="surface_finish" string="Bề mặt"/>
+                                    <field name="need_purchasing" string="Mua" widget="boolean_toggle"/>
+                                    <field name="need_manufacturing" string="SX" widget="boolean_toggle"/>
+                                    <field name="from_inventory" string="KHO" widget="boolean_toggle"/>
+                                    <field name="product_uom_qty" string="Số lượng"/>
+                                    <field name="line_status" string="Tình trạng" widget="statusbar" statusbar_visible="new,in_production,po_placed,packaged,completed"/>
+                                    <field name="price_unit" invisible="1"/>
+                                    <field name="price_subtotal" invisible="1"/>
+                                </tree>
+                            </field>
+                        </page>
+                        <page string="Chi tiết đơn hàng">
+                            <field name="order_line" nolabel="1">
+                                <tree>
+                                    <field name="product_id"/>
+                                    <field name="product_uom_qty"/>
+                                    <field name="price_unit"/>
+                                    <field name="price_subtotal"/>
+                                </tree>
+                            </field>
+                        </page>
+                        <page string="Tài liệu">
+                            <field name="quotation_attachment_ids" widget="many2many_binary"/>
+                        </page>
+                        <page string="Mua nguyên vật liệu">
+                            <field name="order_line" domain="[('need_purchasing', '=', True)]" nolabel="1">
+                                <tree>
+                                    <field name="product_id"/>
+                                    <field name="product_uom_qty"/>
+                                    <field name="line_status"/>
+                                </tree>
+                            </field>
+                        </page>
+                        <page string="Yêu cầu gia công">
+                            <field name="order_line" domain="[('need_manufacturing', '=', True)]" nolabel="1">
+                                <tree>
+                                    <field name="product_id"/>
+                                    <field name="product_uom_qty"/>
+                                    <field name="mfg_note"/>
+                                    <field name="line_status"/>
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+
+                    <!-- Summary Statistics -->
+                    <group>
+                        <group>
+                            <field name="total_quantity" string="Tổng số lượng" readonly="1"/>
+                        </group>
+                        <group>
+                            <field name="manufacturing_count" string="Sản xuất" readonly="1"/>
+                            <field name="purchasing_count" string="Mua hàng" readonly="1"/>
+                            <field name="inventory_count" string="Tồn kho" readonly="1"/>
+                        </group>
+                    </group>
+                </sheet>
+            </xpath>
+
+            <!-- Keep the chatter (activity feed) at the bottom -->
+            <xpath expr="//div[hasclass('oe_chatter')]" position="attributes">
+                <attribute name="class">oe_chatter</attribute>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Tree View -->
+    <record id="view_order_progress_tree" model="ir.ui.view">
+        <field name="name">sale.order.progress.tree</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="progress_status" string="Trạng thái tiến độ"/>
+                <field name="partner_id"/>
+                <field name="date_order"/>
+                <field name="amount_total"/>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Search View -->
+    <record id="view_order_progress_search" model="ir.ui.view">
+        <field name="name">sale.order.progress.search</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_sales_order_filter"/>
+        <field name="arch" type="xml">
+            <xpath expr="//filter[@name='my_sale_orders_filter']" position="after">
+                <filter string="MỚI" name="status_new" domain="[('progress_status', '=', 'new')]"/>
+                <filter string="ĐANG SX" name="status_in_production" domain="[('progress_status', '=', 'in_production')]"/>
+                <filter string="MUA NGOÀI" name="status_external_purchase" domain="[('progress_status', '=', 'external_purchase')]"/>
+                <filter string="CHƯA GIAO" name="status_not_delivered" domain="[('progress_status', '=', 'not_delivered')]"/>
+                <filter string="ĐÃ GIAO" name="status_delivered" domain="[('progress_status', '=', 'delivered')]"/>
+                <filter string="HOÀN THÀNH" name="status_completed" domain="[('progress_status', '=', 'completed')]"/>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Action Methods for Status Buttons -->
+    <record id="action_set_status_new" model="ir.actions.server">
+        <field name="name">Set Status: MỚI</field>
+        <field name="model_id" ref="sale.model_sale_order"/>
+        <field name="binding_model_id" ref="sale.model_sale_order"/>
+        <field name="binding_view_types">form</field>
+        <field name="state">code</field>
+        <field name="code">
+            records.write({'progress_status': 'new'})
+        </field>
+    </record>
+
+    <record id="action_set_status_in_production" model="ir.actions.server">
+        <field name="name">Set Status: ĐANG SX</field>
+        <field name="model_id" ref="sale.model_sale_order"/>
+        <field name="binding_model_id" ref="sale.model_sale_order"/>
+        <field name="binding_view_types">form</field>
+        <field name="state">code</field>
+        <field name="code">
+            records.write({'progress_status': 'in_production'})
+        </field>
+    </record>
+
+    <record id="action_set_status_external_purchase" model="ir.actions.server">
+        <field name="name">Set Status: MUA NGOÀI</field>
+        <field name="model_id" ref="sale.model_sale_order"/>
+        <field name="binding_model_id" ref="sale.model_sale_order"/>
+        <field name="binding_view_types">form</field>
+        <field name="state">code</field>
+        <field name="code">
+            records.write({'progress_status': 'external_purchase'})
+        </field>
+    </record>
+
+    <record id="action_set_status_not_delivered" model="ir.actions.server">
+        <field name="name">Set Status: CHƯA GIAO</field>
+        <field name="model_id" ref="sale.model_sale_order"/>
+        <field name="binding_model_id" ref="sale.model_sale_order"/>
+        <field name="binding_view_types">form</field>
+        <field name="state">code</field>
+        <field name="code">
+            records.write({'progress_status': 'not_delivered'})
+        </field>
+    </record>
+
+    <record id="action_set_status_delivered" model="ir.actions.server">
+        <field name="name">Set Status: ĐÃ GIAO</field>
+        <field name="model_id" ref="sale.model_sale_order"/>
+        <field name="binding_model_id" ref="sale.model_sale_order"/>
+        <field name="binding_view_types">form</field>
+        <field name="state">code</field>
+        <field name="code">
+            records.write({'progress_status': 'delivered'})
+        </field>
+    </record>
+
+    <record id="action_set_status_completed" model="ir.actions.server">
+        <field name="name">Set Status: HOÀN THÀNH</field>
+        <field name="model_id" ref="sale.model_sale_order"/>
+        <field name="binding_model_id" ref="sale.model_sale_order"/>
+        <field name="binding_view_types">form</field>
+        <field name="state">code</field>
+        <field name="code">
+            records.write({'progress_status': 'completed'})
+        </field>
+    </record>
+
+    <record id="action_set_status_cancelled" model="ir.actions.server">
+        <field name="name">Set Status: HỦY</field>
+        <field name="model_id" ref="sale.model_sale_order"/>
+        <field name="binding_model_id" ref="sale.model_sale_order"/>
+        <field name="binding_view_types">form</field>
+        <field name="state">code</field>
+        <field name="code">
+            records.write({'progress_status': 'cancelled'})
+        </field>
+    </record>
+</odoo>

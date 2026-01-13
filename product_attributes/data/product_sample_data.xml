@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- 
+    Tạo sản phẩm mẫu: Bulong A193 B7 và B8
+    Kích thước: M12, M14, M16, M18, M20, M22, M24, M27, M30, M32, M36
+    Chiều dài: 100, 150, 200, 250, 300, 350, 400, 450, 500
+    -->
+
+    <!-- Thêm các giá trị kích thước còn thiếu -->
+    <record id="attr_value_m12" model="product.attribute.value">
+        <field name="name">M12</field>
+        <field name="abbreviation">M12</field>
+        <field name="explanation_vi">đường kính 12</field>
+        <field name="explanation_en">Diameter 12</field>
+        <field name="attribute_type_id" ref="attr_type_size"/>
+        <field name="sequence">10</field>
+    </record>
+
+    <record id="attr_value_m14" model="product.attribute.value">
+        <field name="name">M14</field>
+        <field name="abbreviation">M14</field>
+        <field name="explanation_vi">đường kính 14</field>
+        <field name="explanation_en">Diameter 14</field>
+        <field name="attribute_type_id" ref="attr_type_size"/>
+        <field name="sequence">20</field>
+    </record>
+
+    <record id="attr_value_m18" model="product.attribute.value">
+        <field name="name">M18</field>
+        <field name="abbreviation">M18</field>
+        <field name="explanation_vi">đường kính 18</field>
+        <field name="explanation_en">Diameter 18</field>
+        <field name="attribute_type_id" ref="attr_type_size"/>
+        <field name="sequence">40</field>
+    </record>
+
+    <record id="attr_value_m20" model="product.attribute.value">
+        <field name="name">M20</field>
+        <field name="abbreviation">M20</field>
+        <field name="explanation_vi">đường kính 20</field>
+        <field name="explanation_en">Diameter 20</field>
+        <field name="attribute_type_id" ref="attr_type_size"/>
+        <field name="sequence">50</field>
+    </record>
+
+    <record id="attr_value_m22" model="product.attribute.value">
+        <field name="name">M22</field>
+        <field name="abbreviation">M22</field>
+        <field name="explanation_vi">đường kính 22</field>
+        <field name="explanation_en">Diameter 22</field>
+        <field name="attribute_type_id" ref="attr_type_size"/>
+        <field name="sequence">60</field>
+    </record>
+
+    <record id="attr_value_m24" model="product.attribute.value">
+        <field name="name">M24</field>
+        <field name="abbreviation">M24</field>
+        <field name="explanation_vi">đường kính 24</field>
+        <field name="explanation_en">Diameter 24</field>
+        <field name="attribute_type_id" ref="attr_type_size"/>
+        <field name="sequence">70</field>
+    </record>
+
+    <record id="attr_value_m27" model="product.attribute.value">
+        <field name="name">M27</field>
+        <field name="abbreviation">M27</field>
+        <field name="explanation_vi">đường kính 27</field>
+        <field name="explanation_en">Diameter 27</field>
+        <field name="attribute_type_id" ref="attr_type_size"/>
+        <field name="sequence">80</field>
+    </record>
+
+    <record id="attr_value_m30" model="product.attribute.value">
+        <field name="name">M30</field>
+        <field name="abbreviation">M30</field>
+        <field name="explanation_vi">đường kính 30</field>
+        <field name="explanation_en">Diameter 30</field>
+        <field name="attribute_type_id" ref="attr_type_size"/>
+        <field name="sequence">90</field>
+    </record>
+
+    <record id="attr_value_m32" model="product.attribute.value">
+        <field name="name">M32</field>
+        <field name="abbreviation">M32</field>
+        <field name="explanation_vi">đường kính 32</field>
+        <field name="explanation_en">Diameter 32</field>
+        <field name="attribute_type_id" ref="attr_type_size"/>
+        <field name="sequence">100</field>
+    </record>
+
+    <record id="attr_value_m36" model="product.attribute.value">
+        <field name="name">M36</field>
+        <field name="abbreviation">M36</field>
+        <field name="explanation_vi">đường kính 36</field>
+        <field name="explanation_en">Diameter 36</field>
+        <field name="attribute_type_id" ref="attr_type_size"/>
+        <field name="sequence">110</field>
+    </record>
+
+    <!-- Thêm các giá trị chiều dài -->
+    <record id="attr_value_l100" model="product.attribute.value">
+        <field name="name">L100</field>
+        <field name="abbreviation">L100</field>
+        <field name="explanation_vi">Chiều dài 100</field>
+        <field name="explanation_en">Length 100</field>
+        <field name="attribute_type_id" ref="attr_type_size"/>
+        <field name="sequence">200</field>
+    </record>
+
+    <record id="attr_value_l150" model="product.attribute.value">
+        <field name="name">L150</field>
+        <field name="abbreviation">L150</field>
+        <field name="explanation_vi">Chiều dài 150</field>
+        <field name="explanation_en">Length 150</field>
+        <field name="attribute_type_id" ref="attr_type_size"/>
+        <field name="sequence">250</field>
+    </record>
+
+    <record id="attr_value_l200" model="product.attribute.value">
+        <field name="name">L200</field>
+        <field name="abbreviation">L200</field>
+        <field name="explanation_vi">Chiều dài 200</field>
+        <field name="explanation_en">Length 200</field>
+        <field name="attribute_type_id" ref="attr_type_size"/>
+        <field name="sequence">300</field>
+    </record>
+
+    <record id="attr_value_l250" model="product.attribute.value">
+        <field name="name">L250</field>
+        <field name="abbreviation">L250</field>
+        <field name="explanation_vi">Chiều dài 250</field>
+        <field name="explanation_en">Length 250</field>
+        <field name="attribute_type_id" ref="attr_type_size"/>
+        <field name="sequence">350</field>
+    </record>
+
+    <record id="attr_value_l350" model="product.attribute.value">
+        <field name="name">L350</field>
+        <field name="abbreviation">L350</field>
+        <field name="explanation_vi">Chiều dài 350</field>
+        <field name="explanation_en">Length 350</field>
+        <field name="attribute_type_id" ref="attr_type_size"/>
+        <field name="sequence">450</field>
+    </record>
+
+    <record id="attr_value_l400" model="product.attribute.value">
+        <field name="name">L400</field>
+        <field name="abbreviation">L400</field>
+        <field name="explanation_vi">Chiều dài 400</field>
+        <field name="explanation_en">Length 400</field>
+        <field name="attribute_type_id" ref="attr_type_size"/>
+        <field name="sequence">500</field>
+    </record>
+
+    <record id="attr_value_l450" model="product.attribute.value">
+        <field name="name">L450</field>
+        <field name="abbreviation">L450</field>
+        <field name="explanation_vi">Chiều dài 450</field>
+        <field name="explanation_en">Length 450</field>
+        <field name="attribute_type_id" ref="attr_type_size"/>
+        <field name="sequence">550</field>
+    </record>
+
+    <record id="attr_value_l500" model="product.attribute.value">
+        <field name="name">L500</field>
+        <field name="abbreviation">L500</field>
+        <field name="explanation_vi">Chiều dài 500</field>
+        <field name="explanation_en">Length 500</field>
+        <field name="attribute_type_id" ref="attr_type_size"/>
+        <field name="sequence">600</field>
+    </record>
+
+    <!-- Thêm Grade B8 -->
+    <record id="attr_value_b8" model="product.attribute.value">
+        <field name="name">Grade B8</field>
+        <field name="abbreviation">B8</field>
+        <field name="explanation_vi">Gr B8</field>
+        <field name="explanation_en">Grade B8</field>
+        <field name="attribute_type_id" ref="attr_type_grade"/>
+        <field name="sequence">20</field>
+    </record>
+
+    <!-- Thêm loại sản phẩm HB (Hex Bolt) nếu chưa có -->
+    <record id="attr_value_hb" model="product.attribute.value">
+        <field name="name">Hex Bolt</field>
+        <field name="abbreviation">HB</field>
+        <field name="explanation_vi">Bulong lục giác</field>
+        <field name="explanation_en">Hex Bolt</field>
+        <field name="attribute_type_id" ref="attr_type_product_type"/>
+        <field name="sequence">20</field>
+    </record>
+
+</odoo>

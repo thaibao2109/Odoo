@@ -1,0 +1,168 @@
+/* Order Progress Management Styles */
+
+.progress_status_bar {
+    margin: 15px 0;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+}
+
+.status_steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.status_step {
+    flex: 1;
+    min-width: 100px;
+    padding: 10px 15px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+.status_step:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.status_step[data-status="new"] {
+    border-color: #007cba;
+    background: #007cba;
+    color: white;
+}
+
+.status_step[data-status="in_production"] {
+    border-color: #875a7b;
+    background: #875a7b;
+    color: white;
+}
+
+.status_step[data-status="external_purchase"] {
+    border-color: #007cba;
+    background: #007cba;
+    color: white;
+}
+
+.status_step[data-status="not_delivered"] {
+    border-color: #ffc107;
+    background: #ffc107;
+    color: #333;
+}
+
+.status_step[data-status="delivered"] {
+    border-color: #28a745;
+    background: #28a745;
+    color: white;
+}
+
+.status_step[data-status="completed"] {
+    border-color: #17a2b8;
+    background: #17a2b8;
+    color: white;
+}
+
+.status_step[data-status="cancelled"] {
+    border-color: #dc3545;
+    background: #dc3545;
+    color: white;
+}
+
+/* Active status highlighting */
+.status_step.status_active {
+    background: #875a7b !important;
+    border-color: #875a7b !important;
+    color: white !important;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(135, 90, 123, 0.3);
+}
+
+.status_step.status_active.status_cancelled {
+    background: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
+
+.status_step:not(.status_active) {
+    background: #e9ecef;
+    border-color: #ced4da;
+    color: #495057;
+}
+
+.status_step:not(.status_active):hover {
+    background: #dee2e6;
+    border-color: #adb5bd;
+}
+
+/* Ensure status bar is visible and properly styled */
+.progress_status_bar .status_steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 100%;
+}
+
+.progress_status_bar .status_steps .status_step {
+    flex: 1;
+    min-width: 100px;
+    padding: 10px 15px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    background: #e9ecef;
+    border-color: #ced4da;
+    color: #495057;
+}
+
+/* Product line table styling */
+.o_list_table .o_list_table_thead th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+/* Checkbox styling */
+.o_boolean_toggle {
+    text-align: center;
+}
+
+/* Section headers */
+.group h2 {
+    color: #875a7b;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #875a7b;
+}
+
+/* Notebook tabs styling */
+.o_notebook .nav-tabs .nav-link {
+    color: #495057;
+    font-weight: 500;
+}
+
+.o_notebook .nav-tabs .nav-link.active {
+    color: #875a7b;
+    border-bottom-color: #875a7b;
+}
+
+/* Statistics summary */
+.o_stat_info {
+    text-align: center;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 5px;
+    margin: 5px;
+}

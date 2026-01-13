@@ -1,0 +1,2577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="product_sample_1" model="product.template">
+        <field name="name">Bulong A193M B7 M12 L100</field>
+        <field name="default_code">HB A193M B7 M12 L100</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m12"/>
+        <field name="length_attr" ref="attr_value_l100"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_2" model="product.template">
+        <field name="name">Bulong A193M B7 M12 L150</field>
+        <field name="default_code">HB A193M B7 M12 L150</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m12"/>
+        <field name="length_attr" ref="attr_value_l150"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_3" model="product.template">
+        <field name="name">Bulong A193M B7 M12 L200</field>
+        <field name="default_code">HB A193M B7 M12 L200</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m12"/>
+        <field name="length_attr" ref="attr_value_l200"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_4" model="product.template">
+        <field name="name">Bulong A193M B7 M12 L250</field>
+        <field name="default_code">HB A193M B7 M12 L250</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m12"/>
+        <field name="length_attr" ref="attr_value_l250"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_5" model="product.template">
+        <field name="name">Bulong A193M B7 M12 L300</field>
+        <field name="default_code">HB A193M B7 M12 L300</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m12"/>
+        <field name="length_attr" ref="attr_value_l300"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_6" model="product.template">
+        <field name="name">Bulong A193M B7 M12 L350</field>
+        <field name="default_code">HB A193M B7 M12 L350</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m12"/>
+        <field name="length_attr" ref="attr_value_l350"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_7" model="product.template">
+        <field name="name">Bulong A193M B7 M12 L400</field>
+        <field name="default_code">HB A193M B7 M12 L400</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m12"/>
+        <field name="length_attr" ref="attr_value_l400"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_8" model="product.template">
+        <field name="name">Bulong A193M B7 M12 L450</field>
+        <field name="default_code">HB A193M B7 M12 L450</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m12"/>
+        <field name="length_attr" ref="attr_value_l450"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_9" model="product.template">
+        <field name="name">Bulong A193M B7 M12 L500</field>
+        <field name="default_code">HB A193M B7 M12 L500</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m12"/>
+        <field name="length_attr" ref="attr_value_l500"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_10" model="product.template">
+        <field name="name">Bulong A193M B7 M14 L100</field>
+        <field name="default_code">HB A193M B7 M14 L100</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m14"/>
+        <field name="length_attr" ref="attr_value_l100"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_11" model="product.template">
+        <field name="name">Bulong A193M B7 M14 L150</field>
+        <field name="default_code">HB A193M B7 M14 L150</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m14"/>
+        <field name="length_attr" ref="attr_value_l150"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_12" model="product.template">
+        <field name="name">Bulong A193M B7 M14 L200</field>
+        <field name="default_code">HB A193M B7 M14 L200</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m14"/>
+        <field name="length_attr" ref="attr_value_l200"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_13" model="product.template">
+        <field name="name">Bulong A193M B7 M14 L250</field>
+        <field name="default_code">HB A193M B7 M14 L250</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m14"/>
+        <field name="length_attr" ref="attr_value_l250"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_14" model="product.template">
+        <field name="name">Bulong A193M B7 M14 L300</field>
+        <field name="default_code">HB A193M B7 M14 L300</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m14"/>
+        <field name="length_attr" ref="attr_value_l300"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_15" model="product.template">
+        <field name="name">Bulong A193M B7 M14 L350</field>
+        <field name="default_code">HB A193M B7 M14 L350</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m14"/>
+        <field name="length_attr" ref="attr_value_l350"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_16" model="product.template">
+        <field name="name">Bulong A193M B7 M14 L400</field>
+        <field name="default_code">HB A193M B7 M14 L400</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m14"/>
+        <field name="length_attr" ref="attr_value_l400"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_17" model="product.template">
+        <field name="name">Bulong A193M B7 M14 L450</field>
+        <field name="default_code">HB A193M B7 M14 L450</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m14"/>
+        <field name="length_attr" ref="attr_value_l450"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_18" model="product.template">
+        <field name="name">Bulong A193M B7 M14 L500</field>
+        <field name="default_code">HB A193M B7 M14 L500</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m14"/>
+        <field name="length_attr" ref="attr_value_l500"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_19" model="product.template">
+        <field name="name">Bulong A193M B7 M16 L100</field>
+        <field name="default_code">HB A193M B7 M16 L100</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m16"/>
+        <field name="length_attr" ref="attr_value_l100"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_20" model="product.template">
+        <field name="name">Bulong A193M B7 M16 L150</field>
+        <field name="default_code">HB A193M B7 M16 L150</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m16"/>
+        <field name="length_attr" ref="attr_value_l150"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_21" model="product.template">
+        <field name="name">Bulong A193M B7 M16 L200</field>
+        <field name="default_code">HB A193M B7 M16 L200</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m16"/>
+        <field name="length_attr" ref="attr_value_l200"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_22" model="product.template">
+        <field name="name">Bulong A193M B7 M16 L250</field>
+        <field name="default_code">HB A193M B7 M16 L250</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m16"/>
+        <field name="length_attr" ref="attr_value_l250"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_23" model="product.template">
+        <field name="name">Bulong A193M B7 M16 L300</field>
+        <field name="default_code">HB A193M B7 M16 L300</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m16"/>
+        <field name="length_attr" ref="attr_value_l300"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_24" model="product.template">
+        <field name="name">Bulong A193M B7 M16 L350</field>
+        <field name="default_code">HB A193M B7 M16 L350</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m16"/>
+        <field name="length_attr" ref="attr_value_l350"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_25" model="product.template">
+        <field name="name">Bulong A193M B7 M16 L400</field>
+        <field name="default_code">HB A193M B7 M16 L400</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m16"/>
+        <field name="length_attr" ref="attr_value_l400"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_26" model="product.template">
+        <field name="name">Bulong A193M B7 M16 L450</field>
+        <field name="default_code">HB A193M B7 M16 L450</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m16"/>
+        <field name="length_attr" ref="attr_value_l450"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_27" model="product.template">
+        <field name="name">Bulong A193M B7 M16 L500</field>
+        <field name="default_code">HB A193M B7 M16 L500</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m16"/>
+        <field name="length_attr" ref="attr_value_l500"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_28" model="product.template">
+        <field name="name">Bulong A193M B7 M18 L100</field>
+        <field name="default_code">HB A193M B7 M18 L100</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m18"/>
+        <field name="length_attr" ref="attr_value_l100"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_29" model="product.template">
+        <field name="name">Bulong A193M B7 M18 L150</field>
+        <field name="default_code">HB A193M B7 M18 L150</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m18"/>
+        <field name="length_attr" ref="attr_value_l150"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_30" model="product.template">
+        <field name="name">Bulong A193M B7 M18 L200</field>
+        <field name="default_code">HB A193M B7 M18 L200</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m18"/>
+        <field name="length_attr" ref="attr_value_l200"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_31" model="product.template">
+        <field name="name">Bulong A193M B7 M18 L250</field>
+        <field name="default_code">HB A193M B7 M18 L250</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m18"/>
+        <field name="length_attr" ref="attr_value_l250"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_32" model="product.template">
+        <field name="name">Bulong A193M B7 M18 L300</field>
+        <field name="default_code">HB A193M B7 M18 L300</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m18"/>
+        <field name="length_attr" ref="attr_value_l300"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_33" model="product.template">
+        <field name="name">Bulong A193M B7 M18 L350</field>
+        <field name="default_code">HB A193M B7 M18 L350</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m18"/>
+        <field name="length_attr" ref="attr_value_l350"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_34" model="product.template">
+        <field name="name">Bulong A193M B7 M18 L400</field>
+        <field name="default_code">HB A193M B7 M18 L400</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m18"/>
+        <field name="length_attr" ref="attr_value_l400"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_35" model="product.template">
+        <field name="name">Bulong A193M B7 M18 L450</field>
+        <field name="default_code">HB A193M B7 M18 L450</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m18"/>
+        <field name="length_attr" ref="attr_value_l450"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_36" model="product.template">
+        <field name="name">Bulong A193M B7 M18 L500</field>
+        <field name="default_code">HB A193M B7 M18 L500</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m18"/>
+        <field name="length_attr" ref="attr_value_l500"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_37" model="product.template">
+        <field name="name">Bulong A193M B7 M20 L100</field>
+        <field name="default_code">HB A193M B7 M20 L100</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m20"/>
+        <field name="length_attr" ref="attr_value_l100"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_38" model="product.template">
+        <field name="name">Bulong A193M B7 M20 L150</field>
+        <field name="default_code">HB A193M B7 M20 L150</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m20"/>
+        <field name="length_attr" ref="attr_value_l150"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_39" model="product.template">
+        <field name="name">Bulong A193M B7 M20 L200</field>
+        <field name="default_code">HB A193M B7 M20 L200</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m20"/>
+        <field name="length_attr" ref="attr_value_l200"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_40" model="product.template">
+        <field name="name">Bulong A193M B7 M20 L250</field>
+        <field name="default_code">HB A193M B7 M20 L250</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m20"/>
+        <field name="length_attr" ref="attr_value_l250"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_41" model="product.template">
+        <field name="name">Bulong A193M B7 M20 L300</field>
+        <field name="default_code">HB A193M B7 M20 L300</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m20"/>
+        <field name="length_attr" ref="attr_value_l300"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_42" model="product.template">
+        <field name="name">Bulong A193M B7 M20 L350</field>
+        <field name="default_code">HB A193M B7 M20 L350</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m20"/>
+        <field name="length_attr" ref="attr_value_l350"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_43" model="product.template">
+        <field name="name">Bulong A193M B7 M20 L400</field>
+        <field name="default_code">HB A193M B7 M20 L400</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m20"/>
+        <field name="length_attr" ref="attr_value_l400"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_44" model="product.template">
+        <field name="name">Bulong A193M B7 M20 L450</field>
+        <field name="default_code">HB A193M B7 M20 L450</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m20"/>
+        <field name="length_attr" ref="attr_value_l450"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_45" model="product.template">
+        <field name="name">Bulong A193M B7 M20 L500</field>
+        <field name="default_code">HB A193M B7 M20 L500</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m20"/>
+        <field name="length_attr" ref="attr_value_l500"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_46" model="product.template">
+        <field name="name">Bulong A193M B7 M22 L100</field>
+        <field name="default_code">HB A193M B7 M22 L100</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m22"/>
+        <field name="length_attr" ref="attr_value_l100"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_47" model="product.template">
+        <field name="name">Bulong A193M B7 M22 L150</field>
+        <field name="default_code">HB A193M B7 M22 L150</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m22"/>
+        <field name="length_attr" ref="attr_value_l150"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_48" model="product.template">
+        <field name="name">Bulong A193M B7 M22 L200</field>
+        <field name="default_code">HB A193M B7 M22 L200</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m22"/>
+        <field name="length_attr" ref="attr_value_l200"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_49" model="product.template">
+        <field name="name">Bulong A193M B7 M22 L250</field>
+        <field name="default_code">HB A193M B7 M22 L250</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m22"/>
+        <field name="length_attr" ref="attr_value_l250"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_50" model="product.template">
+        <field name="name">Bulong A193M B7 M22 L300</field>
+        <field name="default_code">HB A193M B7 M22 L300</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m22"/>
+        <field name="length_attr" ref="attr_value_l300"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_51" model="product.template">
+        <field name="name">Bulong A193M B7 M22 L350</field>
+        <field name="default_code">HB A193M B7 M22 L350</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m22"/>
+        <field name="length_attr" ref="attr_value_l350"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_52" model="product.template">
+        <field name="name">Bulong A193M B7 M22 L400</field>
+        <field name="default_code">HB A193M B7 M22 L400</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m22"/>
+        <field name="length_attr" ref="attr_value_l400"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_53" model="product.template">
+        <field name="name">Bulong A193M B7 M22 L450</field>
+        <field name="default_code">HB A193M B7 M22 L450</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m22"/>
+        <field name="length_attr" ref="attr_value_l450"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_54" model="product.template">
+        <field name="name">Bulong A193M B7 M22 L500</field>
+        <field name="default_code">HB A193M B7 M22 L500</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m22"/>
+        <field name="length_attr" ref="attr_value_l500"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_55" model="product.template">
+        <field name="name">Bulong A193M B7 M24 L100</field>
+        <field name="default_code">HB A193M B7 M24 L100</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m24"/>
+        <field name="length_attr" ref="attr_value_l100"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_56" model="product.template">
+        <field name="name">Bulong A193M B7 M24 L150</field>
+        <field name="default_code">HB A193M B7 M24 L150</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m24"/>
+        <field name="length_attr" ref="attr_value_l150"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_57" model="product.template">
+        <field name="name">Bulong A193M B7 M24 L200</field>
+        <field name="default_code">HB A193M B7 M24 L200</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m24"/>
+        <field name="length_attr" ref="attr_value_l200"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_58" model="product.template">
+        <field name="name">Bulong A193M B7 M24 L250</field>
+        <field name="default_code">HB A193M B7 M24 L250</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m24"/>
+        <field name="length_attr" ref="attr_value_l250"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_59" model="product.template">
+        <field name="name">Bulong A193M B7 M24 L300</field>
+        <field name="default_code">HB A193M B7 M24 L300</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m24"/>
+        <field name="length_attr" ref="attr_value_l300"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_60" model="product.template">
+        <field name="name">Bulong A193M B7 M24 L350</field>
+        <field name="default_code">HB A193M B7 M24 L350</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m24"/>
+        <field name="length_attr" ref="attr_value_l350"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_61" model="product.template">
+        <field name="name">Bulong A193M B7 M24 L400</field>
+        <field name="default_code">HB A193M B7 M24 L400</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m24"/>
+        <field name="length_attr" ref="attr_value_l400"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_62" model="product.template">
+        <field name="name">Bulong A193M B7 M24 L450</field>
+        <field name="default_code">HB A193M B7 M24 L450</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m24"/>
+        <field name="length_attr" ref="attr_value_l450"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_63" model="product.template">
+        <field name="name">Bulong A193M B7 M24 L500</field>
+        <field name="default_code">HB A193M B7 M24 L500</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m24"/>
+        <field name="length_attr" ref="attr_value_l500"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_64" model="product.template">
+        <field name="name">Bulong A193M B7 M27 L100</field>
+        <field name="default_code">HB A193M B7 M27 L100</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m27"/>
+        <field name="length_attr" ref="attr_value_l100"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_65" model="product.template">
+        <field name="name">Bulong A193M B7 M27 L150</field>
+        <field name="default_code">HB A193M B7 M27 L150</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m27"/>
+        <field name="length_attr" ref="attr_value_l150"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_66" model="product.template">
+        <field name="name">Bulong A193M B7 M27 L200</field>
+        <field name="default_code">HB A193M B7 M27 L200</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m27"/>
+        <field name="length_attr" ref="attr_value_l200"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_67" model="product.template">
+        <field name="name">Bulong A193M B7 M27 L250</field>
+        <field name="default_code">HB A193M B7 M27 L250</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m27"/>
+        <field name="length_attr" ref="attr_value_l250"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_68" model="product.template">
+        <field name="name">Bulong A193M B7 M27 L300</field>
+        <field name="default_code">HB A193M B7 M27 L300</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m27"/>
+        <field name="length_attr" ref="attr_value_l300"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_69" model="product.template">
+        <field name="name">Bulong A193M B7 M27 L350</field>
+        <field name="default_code">HB A193M B7 M27 L350</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m27"/>
+        <field name="length_attr" ref="attr_value_l350"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_70" model="product.template">
+        <field name="name">Bulong A193M B7 M27 L400</field>
+        <field name="default_code">HB A193M B7 M27 L400</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m27"/>
+        <field name="length_attr" ref="attr_value_l400"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_71" model="product.template">
+        <field name="name">Bulong A193M B7 M27 L450</field>
+        <field name="default_code">HB A193M B7 M27 L450</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m27"/>
+        <field name="length_attr" ref="attr_value_l450"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_72" model="product.template">
+        <field name="name">Bulong A193M B7 M27 L500</field>
+        <field name="default_code">HB A193M B7 M27 L500</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m27"/>
+        <field name="length_attr" ref="attr_value_l500"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_73" model="product.template">
+        <field name="name">Bulong A193M B7 M30 L100</field>
+        <field name="default_code">HB A193M B7 M30 L100</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m30"/>
+        <field name="length_attr" ref="attr_value_l100"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_74" model="product.template">
+        <field name="name">Bulong A193M B7 M30 L150</field>
+        <field name="default_code">HB A193M B7 M30 L150</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m30"/>
+        <field name="length_attr" ref="attr_value_l150"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_75" model="product.template">
+        <field name="name">Bulong A193M B7 M30 L200</field>
+        <field name="default_code">HB A193M B7 M30 L200</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m30"/>
+        <field name="length_attr" ref="attr_value_l200"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_76" model="product.template">
+        <field name="name">Bulong A193M B7 M30 L250</field>
+        <field name="default_code">HB A193M B7 M30 L250</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m30"/>
+        <field name="length_attr" ref="attr_value_l250"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_77" model="product.template">
+        <field name="name">Bulong A193M B7 M30 L300</field>
+        <field name="default_code">HB A193M B7 M30 L300</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m30"/>
+        <field name="length_attr" ref="attr_value_l300"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_78" model="product.template">
+        <field name="name">Bulong A193M B7 M30 L350</field>
+        <field name="default_code">HB A193M B7 M30 L350</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m30"/>
+        <field name="length_attr" ref="attr_value_l350"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_79" model="product.template">
+        <field name="name">Bulong A193M B7 M30 L400</field>
+        <field name="default_code">HB A193M B7 M30 L400</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m30"/>
+        <field name="length_attr" ref="attr_value_l400"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_80" model="product.template">
+        <field name="name">Bulong A193M B7 M30 L450</field>
+        <field name="default_code">HB A193M B7 M30 L450</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m30"/>
+        <field name="length_attr" ref="attr_value_l450"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_81" model="product.template">
+        <field name="name">Bulong A193M B7 M30 L500</field>
+        <field name="default_code">HB A193M B7 M30 L500</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m30"/>
+        <field name="length_attr" ref="attr_value_l500"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_82" model="product.template">
+        <field name="name">Bulong A193M B7 M32 L100</field>
+        <field name="default_code">HB A193M B7 M32 L100</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m32"/>
+        <field name="length_attr" ref="attr_value_l100"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_83" model="product.template">
+        <field name="name">Bulong A193M B7 M32 L150</field>
+        <field name="default_code">HB A193M B7 M32 L150</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m32"/>
+        <field name="length_attr" ref="attr_value_l150"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_84" model="product.template">
+        <field name="name">Bulong A193M B7 M32 L200</field>
+        <field name="default_code">HB A193M B7 M32 L200</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m32"/>
+        <field name="length_attr" ref="attr_value_l200"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_85" model="product.template">
+        <field name="name">Bulong A193M B7 M32 L250</field>
+        <field name="default_code">HB A193M B7 M32 L250</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m32"/>
+        <field name="length_attr" ref="attr_value_l250"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_86" model="product.template">
+        <field name="name">Bulong A193M B7 M32 L300</field>
+        <field name="default_code">HB A193M B7 M32 L300</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m32"/>
+        <field name="length_attr" ref="attr_value_l300"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_87" model="product.template">
+        <field name="name">Bulong A193M B7 M32 L350</field>
+        <field name="default_code">HB A193M B7 M32 L350</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m32"/>
+        <field name="length_attr" ref="attr_value_l350"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_88" model="product.template">
+        <field name="name">Bulong A193M B7 M32 L400</field>
+        <field name="default_code">HB A193M B7 M32 L400</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m32"/>
+        <field name="length_attr" ref="attr_value_l400"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_89" model="product.template">
+        <field name="name">Bulong A193M B7 M32 L450</field>
+        <field name="default_code">HB A193M B7 M32 L450</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m32"/>
+        <field name="length_attr" ref="attr_value_l450"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_90" model="product.template">
+        <field name="name">Bulong A193M B7 M32 L500</field>
+        <field name="default_code">HB A193M B7 M32 L500</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m32"/>
+        <field name="length_attr" ref="attr_value_l500"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_91" model="product.template">
+        <field name="name">Bulong A193M B7 M36 L100</field>
+        <field name="default_code">HB A193M B7 M36 L100</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m36"/>
+        <field name="length_attr" ref="attr_value_l100"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_92" model="product.template">
+        <field name="name">Bulong A193M B7 M36 L150</field>
+        <field name="default_code">HB A193M B7 M36 L150</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m36"/>
+        <field name="length_attr" ref="attr_value_l150"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_93" model="product.template">
+        <field name="name">Bulong A193M B7 M36 L200</field>
+        <field name="default_code">HB A193M B7 M36 L200</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m36"/>
+        <field name="length_attr" ref="attr_value_l200"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_94" model="product.template">
+        <field name="name">Bulong A193M B7 M36 L250</field>
+        <field name="default_code">HB A193M B7 M36 L250</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m36"/>
+        <field name="length_attr" ref="attr_value_l250"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_95" model="product.template">
+        <field name="name">Bulong A193M B7 M36 L300</field>
+        <field name="default_code">HB A193M B7 M36 L300</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m36"/>
+        <field name="length_attr" ref="attr_value_l300"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_96" model="product.template">
+        <field name="name">Bulong A193M B7 M36 L350</field>
+        <field name="default_code">HB A193M B7 M36 L350</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m36"/>
+        <field name="length_attr" ref="attr_value_l350"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_97" model="product.template">
+        <field name="name">Bulong A193M B7 M36 L400</field>
+        <field name="default_code">HB A193M B7 M36 L400</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m36"/>
+        <field name="length_attr" ref="attr_value_l400"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_98" model="product.template">
+        <field name="name">Bulong A193M B7 M36 L450</field>
+        <field name="default_code">HB A193M B7 M36 L450</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m36"/>
+        <field name="length_attr" ref="attr_value_l450"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_99" model="product.template">
+        <field name="name">Bulong A193M B7 M36 L500</field>
+        <field name="default_code">HB A193M B7 M36 L500</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b7"/>
+        <field name="diameter_attr" ref="attr_value_m36"/>
+        <field name="length_attr" ref="attr_value_l500"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_100" model="product.template">
+        <field name="name">Bulong A193M B8 M12 L100</field>
+        <field name="default_code">HB A193M B8 M12 L100</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m12"/>
+        <field name="length_attr" ref="attr_value_l100"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_101" model="product.template">
+        <field name="name">Bulong A193M B8 M12 L150</field>
+        <field name="default_code">HB A193M B8 M12 L150</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m12"/>
+        <field name="length_attr" ref="attr_value_l150"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_102" model="product.template">
+        <field name="name">Bulong A193M B8 M12 L200</field>
+        <field name="default_code">HB A193M B8 M12 L200</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m12"/>
+        <field name="length_attr" ref="attr_value_l200"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_103" model="product.template">
+        <field name="name">Bulong A193M B8 M12 L250</field>
+        <field name="default_code">HB A193M B8 M12 L250</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m12"/>
+        <field name="length_attr" ref="attr_value_l250"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_104" model="product.template">
+        <field name="name">Bulong A193M B8 M12 L300</field>
+        <field name="default_code">HB A193M B8 M12 L300</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m12"/>
+        <field name="length_attr" ref="attr_value_l300"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_105" model="product.template">
+        <field name="name">Bulong A193M B8 M12 L350</field>
+        <field name="default_code">HB A193M B8 M12 L350</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m12"/>
+        <field name="length_attr" ref="attr_value_l350"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_106" model="product.template">
+        <field name="name">Bulong A193M B8 M12 L400</field>
+        <field name="default_code">HB A193M B8 M12 L400</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m12"/>
+        <field name="length_attr" ref="attr_value_l400"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_107" model="product.template">
+        <field name="name">Bulong A193M B8 M12 L450</field>
+        <field name="default_code">HB A193M B8 M12 L450</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m12"/>
+        <field name="length_attr" ref="attr_value_l450"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_108" model="product.template">
+        <field name="name">Bulong A193M B8 M12 L500</field>
+        <field name="default_code">HB A193M B8 M12 L500</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m12"/>
+        <field name="length_attr" ref="attr_value_l500"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_109" model="product.template">
+        <field name="name">Bulong A193M B8 M14 L100</field>
+        <field name="default_code">HB A193M B8 M14 L100</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m14"/>
+        <field name="length_attr" ref="attr_value_l100"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_110" model="product.template">
+        <field name="name">Bulong A193M B8 M14 L150</field>
+        <field name="default_code">HB A193M B8 M14 L150</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m14"/>
+        <field name="length_attr" ref="attr_value_l150"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_111" model="product.template">
+        <field name="name">Bulong A193M B8 M14 L200</field>
+        <field name="default_code">HB A193M B8 M14 L200</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m14"/>
+        <field name="length_attr" ref="attr_value_l200"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_112" model="product.template">
+        <field name="name">Bulong A193M B8 M14 L250</field>
+        <field name="default_code">HB A193M B8 M14 L250</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m14"/>
+        <field name="length_attr" ref="attr_value_l250"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_113" model="product.template">
+        <field name="name">Bulong A193M B8 M14 L300</field>
+        <field name="default_code">HB A193M B8 M14 L300</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m14"/>
+        <field name="length_attr" ref="attr_value_l300"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_114" model="product.template">
+        <field name="name">Bulong A193M B8 M14 L350</field>
+        <field name="default_code">HB A193M B8 M14 L350</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m14"/>
+        <field name="length_attr" ref="attr_value_l350"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_115" model="product.template">
+        <field name="name">Bulong A193M B8 M14 L400</field>
+        <field name="default_code">HB A193M B8 M14 L400</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m14"/>
+        <field name="length_attr" ref="attr_value_l400"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_116" model="product.template">
+        <field name="name">Bulong A193M B8 M14 L450</field>
+        <field name="default_code">HB A193M B8 M14 L450</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m14"/>
+        <field name="length_attr" ref="attr_value_l450"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_117" model="product.template">
+        <field name="name">Bulong A193M B8 M14 L500</field>
+        <field name="default_code">HB A193M B8 M14 L500</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m14"/>
+        <field name="length_attr" ref="attr_value_l500"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_118" model="product.template">
+        <field name="name">Bulong A193M B8 M16 L100</field>
+        <field name="default_code">HB A193M B8 M16 L100</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m16"/>
+        <field name="length_attr" ref="attr_value_l100"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_119" model="product.template">
+        <field name="name">Bulong A193M B8 M16 L150</field>
+        <field name="default_code">HB A193M B8 M16 L150</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m16"/>
+        <field name="length_attr" ref="attr_value_l150"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_120" model="product.template">
+        <field name="name">Bulong A193M B8 M16 L200</field>
+        <field name="default_code">HB A193M B8 M16 L200</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m16"/>
+        <field name="length_attr" ref="attr_value_l200"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_121" model="product.template">
+        <field name="name">Bulong A193M B8 M16 L250</field>
+        <field name="default_code">HB A193M B8 M16 L250</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m16"/>
+        <field name="length_attr" ref="attr_value_l250"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_122" model="product.template">
+        <field name="name">Bulong A193M B8 M16 L300</field>
+        <field name="default_code">HB A193M B8 M16 L300</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m16"/>
+        <field name="length_attr" ref="attr_value_l300"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_123" model="product.template">
+        <field name="name">Bulong A193M B8 M16 L350</field>
+        <field name="default_code">HB A193M B8 M16 L350</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m16"/>
+        <field name="length_attr" ref="attr_value_l350"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_124" model="product.template">
+        <field name="name">Bulong A193M B8 M16 L400</field>
+        <field name="default_code">HB A193M B8 M16 L400</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m16"/>
+        <field name="length_attr" ref="attr_value_l400"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_125" model="product.template">
+        <field name="name">Bulong A193M B8 M16 L450</field>
+        <field name="default_code">HB A193M B8 M16 L450</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m16"/>
+        <field name="length_attr" ref="attr_value_l450"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_126" model="product.template">
+        <field name="name">Bulong A193M B8 M16 L500</field>
+        <field name="default_code">HB A193M B8 M16 L500</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m16"/>
+        <field name="length_attr" ref="attr_value_l500"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_127" model="product.template">
+        <field name="name">Bulong A193M B8 M18 L100</field>
+        <field name="default_code">HB A193M B8 M18 L100</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m18"/>
+        <field name="length_attr" ref="attr_value_l100"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_128" model="product.template">
+        <field name="name">Bulong A193M B8 M18 L150</field>
+        <field name="default_code">HB A193M B8 M18 L150</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m18"/>
+        <field name="length_attr" ref="attr_value_l150"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_129" model="product.template">
+        <field name="name">Bulong A193M B8 M18 L200</field>
+        <field name="default_code">HB A193M B8 M18 L200</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m18"/>
+        <field name="length_attr" ref="attr_value_l200"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_130" model="product.template">
+        <field name="name">Bulong A193M B8 M18 L250</field>
+        <field name="default_code">HB A193M B8 M18 L250</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m18"/>
+        <field name="length_attr" ref="attr_value_l250"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_131" model="product.template">
+        <field name="name">Bulong A193M B8 M18 L300</field>
+        <field name="default_code">HB A193M B8 M18 L300</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m18"/>
+        <field name="length_attr" ref="attr_value_l300"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_132" model="product.template">
+        <field name="name">Bulong A193M B8 M18 L350</field>
+        <field name="default_code">HB A193M B8 M18 L350</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m18"/>
+        <field name="length_attr" ref="attr_value_l350"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_133" model="product.template">
+        <field name="name">Bulong A193M B8 M18 L400</field>
+        <field name="default_code">HB A193M B8 M18 L400</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m18"/>
+        <field name="length_attr" ref="attr_value_l400"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_134" model="product.template">
+        <field name="name">Bulong A193M B8 M18 L450</field>
+        <field name="default_code">HB A193M B8 M18 L450</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m18"/>
+        <field name="length_attr" ref="attr_value_l450"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_135" model="product.template">
+        <field name="name">Bulong A193M B8 M18 L500</field>
+        <field name="default_code">HB A193M B8 M18 L500</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m18"/>
+        <field name="length_attr" ref="attr_value_l500"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_136" model="product.template">
+        <field name="name">Bulong A193M B8 M20 L100</field>
+        <field name="default_code">HB A193M B8 M20 L100</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m20"/>
+        <field name="length_attr" ref="attr_value_l100"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_137" model="product.template">
+        <field name="name">Bulong A193M B8 M20 L150</field>
+        <field name="default_code">HB A193M B8 M20 L150</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m20"/>
+        <field name="length_attr" ref="attr_value_l150"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_138" model="product.template">
+        <field name="name">Bulong A193M B8 M20 L200</field>
+        <field name="default_code">HB A193M B8 M20 L200</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m20"/>
+        <field name="length_attr" ref="attr_value_l200"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_139" model="product.template">
+        <field name="name">Bulong A193M B8 M20 L250</field>
+        <field name="default_code">HB A193M B8 M20 L250</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m20"/>
+        <field name="length_attr" ref="attr_value_l250"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_140" model="product.template">
+        <field name="name">Bulong A193M B8 M20 L300</field>
+        <field name="default_code">HB A193M B8 M20 L300</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m20"/>
+        <field name="length_attr" ref="attr_value_l300"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_141" model="product.template">
+        <field name="name">Bulong A193M B8 M20 L350</field>
+        <field name="default_code">HB A193M B8 M20 L350</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m20"/>
+        <field name="length_attr" ref="attr_value_l350"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_142" model="product.template">
+        <field name="name">Bulong A193M B8 M20 L400</field>
+        <field name="default_code">HB A193M B8 M20 L400</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m20"/>
+        <field name="length_attr" ref="attr_value_l400"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_143" model="product.template">
+        <field name="name">Bulong A193M B8 M20 L450</field>
+        <field name="default_code">HB A193M B8 M20 L450</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m20"/>
+        <field name="length_attr" ref="attr_value_l450"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_144" model="product.template">
+        <field name="name">Bulong A193M B8 M20 L500</field>
+        <field name="default_code">HB A193M B8 M20 L500</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m20"/>
+        <field name="length_attr" ref="attr_value_l500"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_145" model="product.template">
+        <field name="name">Bulong A193M B8 M22 L100</field>
+        <field name="default_code">HB A193M B8 M22 L100</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m22"/>
+        <field name="length_attr" ref="attr_value_l100"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_146" model="product.template">
+        <field name="name">Bulong A193M B8 M22 L150</field>
+        <field name="default_code">HB A193M B8 M22 L150</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m22"/>
+        <field name="length_attr" ref="attr_value_l150"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_147" model="product.template">
+        <field name="name">Bulong A193M B8 M22 L200</field>
+        <field name="default_code">HB A193M B8 M22 L200</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m22"/>
+        <field name="length_attr" ref="attr_value_l200"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_148" model="product.template">
+        <field name="name">Bulong A193M B8 M22 L250</field>
+        <field name="default_code">HB A193M B8 M22 L250</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m22"/>
+        <field name="length_attr" ref="attr_value_l250"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_149" model="product.template">
+        <field name="name">Bulong A193M B8 M22 L300</field>
+        <field name="default_code">HB A193M B8 M22 L300</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m22"/>
+        <field name="length_attr" ref="attr_value_l300"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_150" model="product.template">
+        <field name="name">Bulong A193M B8 M22 L350</field>
+        <field name="default_code">HB A193M B8 M22 L350</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m22"/>
+        <field name="length_attr" ref="attr_value_l350"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_151" model="product.template">
+        <field name="name">Bulong A193M B8 M22 L400</field>
+        <field name="default_code">HB A193M B8 M22 L400</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m22"/>
+        <field name="length_attr" ref="attr_value_l400"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_152" model="product.template">
+        <field name="name">Bulong A193M B8 M22 L450</field>
+        <field name="default_code">HB A193M B8 M22 L450</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m22"/>
+        <field name="length_attr" ref="attr_value_l450"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_153" model="product.template">
+        <field name="name">Bulong A193M B8 M22 L500</field>
+        <field name="default_code">HB A193M B8 M22 L500</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m22"/>
+        <field name="length_attr" ref="attr_value_l500"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_154" model="product.template">
+        <field name="name">Bulong A193M B8 M24 L100</field>
+        <field name="default_code">HB A193M B8 M24 L100</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m24"/>
+        <field name="length_attr" ref="attr_value_l100"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_155" model="product.template">
+        <field name="name">Bulong A193M B8 M24 L150</field>
+        <field name="default_code">HB A193M B8 M24 L150</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m24"/>
+        <field name="length_attr" ref="attr_value_l150"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_156" model="product.template">
+        <field name="name">Bulong A193M B8 M24 L200</field>
+        <field name="default_code">HB A193M B8 M24 L200</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m24"/>
+        <field name="length_attr" ref="attr_value_l200"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_157" model="product.template">
+        <field name="name">Bulong A193M B8 M24 L250</field>
+        <field name="default_code">HB A193M B8 M24 L250</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m24"/>
+        <field name="length_attr" ref="attr_value_l250"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_158" model="product.template">
+        <field name="name">Bulong A193M B8 M24 L300</field>
+        <field name="default_code">HB A193M B8 M24 L300</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m24"/>
+        <field name="length_attr" ref="attr_value_l300"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_159" model="product.template">
+        <field name="name">Bulong A193M B8 M24 L350</field>
+        <field name="default_code">HB A193M B8 M24 L350</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m24"/>
+        <field name="length_attr" ref="attr_value_l350"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_160" model="product.template">
+        <field name="name">Bulong A193M B8 M24 L400</field>
+        <field name="default_code">HB A193M B8 M24 L400</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m24"/>
+        <field name="length_attr" ref="attr_value_l400"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_161" model="product.template">
+        <field name="name">Bulong A193M B8 M24 L450</field>
+        <field name="default_code">HB A193M B8 M24 L450</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m24"/>
+        <field name="length_attr" ref="attr_value_l450"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_162" model="product.template">
+        <field name="name">Bulong A193M B8 M24 L500</field>
+        <field name="default_code">HB A193M B8 M24 L500</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m24"/>
+        <field name="length_attr" ref="attr_value_l500"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_163" model="product.template">
+        <field name="name">Bulong A193M B8 M27 L100</field>
+        <field name="default_code">HB A193M B8 M27 L100</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m27"/>
+        <field name="length_attr" ref="attr_value_l100"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_164" model="product.template">
+        <field name="name">Bulong A193M B8 M27 L150</field>
+        <field name="default_code">HB A193M B8 M27 L150</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m27"/>
+        <field name="length_attr" ref="attr_value_l150"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_165" model="product.template">
+        <field name="name">Bulong A193M B8 M27 L200</field>
+        <field name="default_code">HB A193M B8 M27 L200</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m27"/>
+        <field name="length_attr" ref="attr_value_l200"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_166" model="product.template">
+        <field name="name">Bulong A193M B8 M27 L250</field>
+        <field name="default_code">HB A193M B8 M27 L250</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m27"/>
+        <field name="length_attr" ref="attr_value_l250"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_167" model="product.template">
+        <field name="name">Bulong A193M B8 M27 L300</field>
+        <field name="default_code">HB A193M B8 M27 L300</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m27"/>
+        <field name="length_attr" ref="attr_value_l300"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_168" model="product.template">
+        <field name="name">Bulong A193M B8 M27 L350</field>
+        <field name="default_code">HB A193M B8 M27 L350</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m27"/>
+        <field name="length_attr" ref="attr_value_l350"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_169" model="product.template">
+        <field name="name">Bulong A193M B8 M27 L400</field>
+        <field name="default_code">HB A193M B8 M27 L400</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m27"/>
+        <field name="length_attr" ref="attr_value_l400"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_170" model="product.template">
+        <field name="name">Bulong A193M B8 M27 L450</field>
+        <field name="default_code">HB A193M B8 M27 L450</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m27"/>
+        <field name="length_attr" ref="attr_value_l450"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_171" model="product.template">
+        <field name="name">Bulong A193M B8 M27 L500</field>
+        <field name="default_code">HB A193M B8 M27 L500</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m27"/>
+        <field name="length_attr" ref="attr_value_l500"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_172" model="product.template">
+        <field name="name">Bulong A193M B8 M30 L100</field>
+        <field name="default_code">HB A193M B8 M30 L100</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m30"/>
+        <field name="length_attr" ref="attr_value_l100"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_173" model="product.template">
+        <field name="name">Bulong A193M B8 M30 L150</field>
+        <field name="default_code">HB A193M B8 M30 L150</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m30"/>
+        <field name="length_attr" ref="attr_value_l150"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_174" model="product.template">
+        <field name="name">Bulong A193M B8 M30 L200</field>
+        <field name="default_code">HB A193M B8 M30 L200</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m30"/>
+        <field name="length_attr" ref="attr_value_l200"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_175" model="product.template">
+        <field name="name">Bulong A193M B8 M30 L250</field>
+        <field name="default_code">HB A193M B8 M30 L250</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m30"/>
+        <field name="length_attr" ref="attr_value_l250"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_176" model="product.template">
+        <field name="name">Bulong A193M B8 M30 L300</field>
+        <field name="default_code">HB A193M B8 M30 L300</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m30"/>
+        <field name="length_attr" ref="attr_value_l300"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_177" model="product.template">
+        <field name="name">Bulong A193M B8 M30 L350</field>
+        <field name="default_code">HB A193M B8 M30 L350</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m30"/>
+        <field name="length_attr" ref="attr_value_l350"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_178" model="product.template">
+        <field name="name">Bulong A193M B8 M30 L400</field>
+        <field name="default_code">HB A193M B8 M30 L400</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m30"/>
+        <field name="length_attr" ref="attr_value_l400"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_179" model="product.template">
+        <field name="name">Bulong A193M B8 M30 L450</field>
+        <field name="default_code">HB A193M B8 M30 L450</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m30"/>
+        <field name="length_attr" ref="attr_value_l450"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_180" model="product.template">
+        <field name="name">Bulong A193M B8 M30 L500</field>
+        <field name="default_code">HB A193M B8 M30 L500</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m30"/>
+        <field name="length_attr" ref="attr_value_l500"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_181" model="product.template">
+        <field name="name">Bulong A193M B8 M32 L100</field>
+        <field name="default_code">HB A193M B8 M32 L100</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m32"/>
+        <field name="length_attr" ref="attr_value_l100"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_182" model="product.template">
+        <field name="name">Bulong A193M B8 M32 L150</field>
+        <field name="default_code">HB A193M B8 M32 L150</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m32"/>
+        <field name="length_attr" ref="attr_value_l150"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_183" model="product.template">
+        <field name="name">Bulong A193M B8 M32 L200</field>
+        <field name="default_code">HB A193M B8 M32 L200</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m32"/>
+        <field name="length_attr" ref="attr_value_l200"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_184" model="product.template">
+        <field name="name">Bulong A193M B8 M32 L250</field>
+        <field name="default_code">HB A193M B8 M32 L250</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m32"/>
+        <field name="length_attr" ref="attr_value_l250"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_185" model="product.template">
+        <field name="name">Bulong A193M B8 M32 L300</field>
+        <field name="default_code">HB A193M B8 M32 L300</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m32"/>
+        <field name="length_attr" ref="attr_value_l300"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_186" model="product.template">
+        <field name="name">Bulong A193M B8 M32 L350</field>
+        <field name="default_code">HB A193M B8 M32 L350</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m32"/>
+        <field name="length_attr" ref="attr_value_l350"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_187" model="product.template">
+        <field name="name">Bulong A193M B8 M32 L400</field>
+        <field name="default_code">HB A193M B8 M32 L400</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m32"/>
+        <field name="length_attr" ref="attr_value_l400"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_188" model="product.template">
+        <field name="name">Bulong A193M B8 M32 L450</field>
+        <field name="default_code">HB A193M B8 M32 L450</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m32"/>
+        <field name="length_attr" ref="attr_value_l450"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_189" model="product.template">
+        <field name="name">Bulong A193M B8 M32 L500</field>
+        <field name="default_code">HB A193M B8 M32 L500</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m32"/>
+        <field name="length_attr" ref="attr_value_l500"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_190" model="product.template">
+        <field name="name">Bulong A193M B8 M36 L100</field>
+        <field name="default_code">HB A193M B8 M36 L100</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m36"/>
+        <field name="length_attr" ref="attr_value_l100"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_191" model="product.template">
+        <field name="name">Bulong A193M B8 M36 L150</field>
+        <field name="default_code">HB A193M B8 M36 L150</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m36"/>
+        <field name="length_attr" ref="attr_value_l150"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_192" model="product.template">
+        <field name="name">Bulong A193M B8 M36 L200</field>
+        <field name="default_code">HB A193M B8 M36 L200</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m36"/>
+        <field name="length_attr" ref="attr_value_l200"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_193" model="product.template">
+        <field name="name">Bulong A193M B8 M36 L250</field>
+        <field name="default_code">HB A193M B8 M36 L250</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m36"/>
+        <field name="length_attr" ref="attr_value_l250"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_194" model="product.template">
+        <field name="name">Bulong A193M B8 M36 L300</field>
+        <field name="default_code">HB A193M B8 M36 L300</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m36"/>
+        <field name="length_attr" ref="attr_value_l300"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_195" model="product.template">
+        <field name="name">Bulong A193M B8 M36 L350</field>
+        <field name="default_code">HB A193M B8 M36 L350</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m36"/>
+        <field name="length_attr" ref="attr_value_l350"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_196" model="product.template">
+        <field name="name">Bulong A193M B8 M36 L400</field>
+        <field name="default_code">HB A193M B8 M36 L400</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m36"/>
+        <field name="length_attr" ref="attr_value_l400"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_197" model="product.template">
+        <field name="name">Bulong A193M B8 M36 L450</field>
+        <field name="default_code">HB A193M B8 M36 L450</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m36"/>
+        <field name="length_attr" ref="attr_value_l450"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+    <record id="product_sample_198" model="product.template">
+        <field name="name">Bulong A193M B8 M36 L500</field>
+        <field name="default_code">HB A193M B8 M36 L500</field>
+        <field name="product_type_attr" ref="attr_value_hb"/>
+        <field name="standard_attr" ref="attr_value_a193m"/>
+        <field name="grade_attr" ref="attr_value_b8"/>
+        <field name="diameter_attr" ref="attr_value_m36"/>
+        <field name="length_attr" ref="attr_value_l500"/>
+        <field name="auto_generate_sku">True</field>
+        <field name="sale_ok">True</field>
+        <field name="purchase_ok">True</field>
+        <field name="type">product</field>
+    </record>
+</odoo>

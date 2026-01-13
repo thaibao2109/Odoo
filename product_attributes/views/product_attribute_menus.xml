@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Menu Items -->
+    <menuitem id="menu_product_attributes_root"
+              name="Thuộc tính sản phẩm"
+              sequence="15"
+              parent="sale.sale_menu_root"/>
+
+    <menuitem id="menu_product_attribute_type"
+              name="Loại thuộc tính"
+              parent="menu_product_attributes_root"
+              action="action_product_attribute_type"
+              sequence="10"/>
+
+    <menuitem id="menu_product_attribute_value"
+              name="Giá trị thuộc tính"
+              parent="menu_product_attributes_root"
+              action="action_product_attribute_value"
+              sequence="20"/>
+
+    <menuitem id="menu_product_template_attributes"
+              name="Sản phẩm"
+              parent="menu_product_attributes_root"
+              action="product.product_template_action_all"
+              sequence="30"/>
+
+</odoo>

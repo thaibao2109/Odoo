@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Menu Items -->
+    <menuitem id="menu_order_progress_root"
+              name="Quản lý tiến độ đơn hàng"
+              sequence="10"/>
+
+    <menuitem id="menu_order_progress_orders"
+              name="Đơn hàng"
+              parent="menu_order_progress_root"
+              action="sale.action_orders"
+              sequence="10"/>
+
+    <menuitem id="menu_order_progress_reports"
+              name="Báo cáo"
+              parent="menu_order_progress_root"
+              sequence="20"/>
+</odoo>

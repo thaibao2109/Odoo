@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Server Action để tự động tạo sản phẩm -->
+    <record id="action_auto_create_products" model="ir.actions.server">
+        <field name="name">Tự động tạo sản phẩm Bulong A193M B7/B8</field>
+        <field name="model_id" ref="product.model_product_template"/>
+        <field name="binding_model_id" ref="product.model_product_template"/>
+        <field name="binding_view_types">list</field>
+        <field name="state">code</field>
+        <field name="code">
+# Tự động tạo sản phẩm với attributes và variants
+
+# 1. Tạo hoặc tìm attribute "Đường kính"
+diameter_attr = env['product.attribute'].search([('name', '=', 'Đường kính')], limit=1)
+if not diameter_attr:
+    diameter_attr = env['product.attribute'].create({
+        'name': 'Đường kính',
+        'display_type': 'radio',
+        'create_variant': 'always',
+    })
+
+# 2. Tạo hoặc tìm attribute "Chiều dài"
+length_attr = env['product.attribute'].search([('name', '=', 'Chiều dài')], limit=1)
+if not length_attr:
+    length_attr = env['product.attribute'].create({
+        'name': 'Chiều dài',
+        'display_type': 'radio',
+        'create_variant': 'always',
+    })
+
+# 3. Tạo attribute values cho đường kính
+diameters = ['M12', 'M14', 'M16', 'M18', 'M20', 'M22', 'M24', 'M27', 'M30', 'M32', 'M36']
+diameter_values = []
+for dia in diameters:
+    value = env['product.attribute.value'].search([
+        ('name', '=', dia),
+        ('attribute_id', '=', diameter_attr.id)
+    ], limit=1)
+    if not value:
+        value = env['product.attribute.value'].create({
+            'name': dia,
+            'attribute_id': diameter_attr.id,
+        })
+    diameter_values.append(value)
+
+# 4. Tạo attribute values cho chiều dài
+lengths = ['100', '150', '200', '250', '300', '350', '400', '450', '500']
+length_values = []
+for len_val in lengths:
+    value = env['product.attribute.value'].search([
+        ('name', '=', len_val),
+        ('attribute_id', '=', length_attr.id)
+    ], limit=1)
+    if not value:
+        value = env['product.attribute.value'].create({
+            'name': len_val,
+            'attribute_id': length_attr.id,
+        })
+    length_values.append(value)
+
+# 5. Xóa sản phẩm cũ (nếu có)
+old_products = env['product.template'].search([('name', 'ilike', 'Bulong A193')])
+if old_products:
+    old_products.unlink()
+
+# 6. Tạo sản phẩm B7
+product_b7 = env['product.template'].create({
+    'name': 'Bulong A193M B7',
+    'default_code': 'HB A193M B7',
+    'sale_ok': True,
+    'purchase_ok': True,
+    'type': 'product',
+})
+
+env['product.template.attribute.line'].create({
+    'product_tmpl_id': product_b7.id,
+    'attribute_id': diameter_attr.id,
+    'value_ids': [(6, 0, [v.id for v in diameter_values])],
+})
+
+env['product.template.attribute.line'].create({
+    'product_tmpl_id': product_b7.id,
+    'attribute_id': length_attr.id,
+    'value_ids': [(6, 0, [v.id for v in length_values])],
+})
+
+# 7. Tạo sản phẩm B8
+product_b8 = env['product.template'].create({
+    'name': 'Bulong A193M B8',
+    'default_code': 'HB A193M B8',
+    'sale_ok': True,
+    'purchase_ok': True,
+    'type': 'product',
+})
+
+env['product.template.attribute.line'].create({
+    'product_tmpl_id': product_b8.id,
+    'attribute_id': diameter_attr.id,
+    'value_ids': [(6, 0, [v.id for v in diameter_values])],
+})
+
+env['product.template.attribute.line'].create({
+    'product_tmpl_id': product_b8.id,
+    'attribute_id': length_attr.id,
+    'value_ids': [(6, 0, [v.id for v in length_values])],
+})
+
+# Thông báo thành công
+action = {
+    'type': 'ir.actions.client',
+    'tag': 'display_notification',
+    'params': {
+        'title': 'Thành công!',
+        'message': f'Đã tạo 2 sản phẩm với {len(diameters) * len(lengths) * 2} variants',
+        'type': 'success',
+        'sticky': False,
+    }
+}
+        </field>
+    </record>
+
+</odoo>

@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_product_attribute_type_user,product.attribute.type.user,model_product_attribute_type,base.group_user,1,1,1,1
+access_product_attribute_value_user,product.attribute.value.user,model_product_attribute_value,base.group_user,1,1,1,1
+access_product_template_attr_user,product.template.attr.user,model_product_template,base.group_user,1,1,1,1
+access_product_product_sku_user,product.product.sku.user,model_product_product,base.group_user,1,1,1,1
+access_product_auto_create_wizard_user,product.auto.create.wizard.user,model_product_auto_create_wizard,base.group_user,1,1,1,1

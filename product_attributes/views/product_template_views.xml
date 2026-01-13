@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Extend Product Template Form View -->
+    <record id="view_product_template_form_attributes" model="ir.ui.view">
+        <field name="name">product.template.form.attributes</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_form_view"/>
+        <field name="arch" type="xml">
+            <!-- Add button in header - chỉ trên template form -->
+            <!-- Button này chỉ hiển thị trên product.template, không phải product.product -->
+            <!-- Sử dụng xpath đơn giản vì view này chỉ cho product.template -->
+            <xpath expr="//div[hasclass('oe_button_box')]" position="inside">
+                <button name="action_setup_attributes_variants" 
+                        type="object" 
+                        string="THIẾT LẬP ATTRIBUTES" 
+                        class="oe_stat_button" 
+                        icon="fa-cogs"
+                        attrs="{'invisible': [('attribute_line_ids', '!=', [])]}"
+                        help="Tự động tạo attributes Đường kính và Chiều dài với variants"/>
+            </xpath>
+            
+            <!-- Add field default_code vào tab "Thông tin chung" (General Information) -->
+            <!-- Thêm vào đầu page đầu tiên (Thông tin chung) -->
+            <xpath expr="//page[1]/group[1]" position="before">
+                <group string="Mã sản phẩm">
+                    <field name="default_code" 
+                           string="Mã sản phẩm:"
+                           placeholder="VD: HB A193M B7"
+                           help="Mã SKU template này sẽ được dùng làm phần đầu của SKU cho tất cả variants. Ví dụ: HB A193M B7. Sau khi nhập và Save, tất cả variants sẽ tự động có SKU = Mã này + Attributes"/>
+                </group>
+            </xpath>
+
+            <!-- Add attributes fields in a new page -->
+            <xpath expr="//notebook" position="inside">
+                <page string="Thuộc tính sản phẩm" name="product_attributes">
+                    <group>
+                        <group string="Thuộc tính cơ bản">
+                            <field name="product_type_attr" 
+                                   options="{'no_create': True, 'no_open': True}"
+                                   widget="many2one_clickable"/>
+                            <field name="standard_attr" 
+                                   options="{'no_create': True, 'no_open': True}"
+                                   widget="many2one_clickable"/>
+                            <field name="grade_attr" 
+                                   options="{'no_create': True, 'no_open': True}"
+                                   widget="many2one_clickable"/>
+                        </group>
+                        <group string="Kích thước &amp; Bề mặt">
+                            <field name="diameter_attr" 
+                                   string="Đường kính"
+                                   options="{'no_create': True, 'no_open': True}"
+                                   widget="many2one_clickable"/>
+                            <field name="length_attr" 
+                                   string="Chiều dài"
+                                   options="{'no_create': True, 'no_open': True}"
+                                   widget="many2one_clickable"/>
+                            <field name="surface_attr" 
+                                   options="{'no_create': True, 'no_open': True}"
+                                   widget="many2one_clickable"/>
+                            <field name="special_attr" 
+                                   options="{'no_create': True, 'no_open': True}"
+                                   widget="many2one_clickable"/>
+                        </group>
+                    </group>
+                    
+                    <group string="Mã SKU">
+                        <group>
+                            <field name="auto_generate_sku" widget="boolean_toggle"/>
+                            <field name="custom_sku" 
+                                   attrs="{'invisible': [('auto_generate_sku', '=', False)], 'readonly': [('auto_generate_sku', '=', True)]}"
+                                   placeholder="Nhập mã SKU tùy chỉnh (nếu không tự động)"/>
+                        </group>
+                        <group>
+                            <field name="generated_sku" 
+                                   widget="text" 
+                                   readonly="1"
+                                   style="font-weight: bold; font-size: 14px; color: #875a7b;"/>
+                            <field name="sku_formula_display" 
+                                   widget="text" 
+                                   readonly="1"
+                                   style="font-style: italic; color: #666;"/>
+                        </group>
+                    </group>
+                    
+                    <div class="alert alert-warning" role="alert" style="margin-top: 10px;">
+                        <strong>Lưu ý:</strong> Mã SKU sẽ được tự động tạo từ các thuộc tính đã chọn. 
+                        Nếu muốn tùy chỉnh, hãy tắt "Tự động tạo mã SKU" và nhập mã thủ công.
+                    </div>
+                </page>
+            </xpath>
+
+        </field>
+    </record>
+
+    <!-- Add SKU column to product tree view -->
+    <record id="view_product_template_tree_attributes" model="ir.ui.view">
+        <field name="name">product.template.tree.attributes</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_tree_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='default_code']" position="after">
+                <field name="generated_sku" string="Mã SKU" optional="show"/>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Search view for SKU -->
+    <record id="view_product_template_search_attributes" model="ir.ui.view">
+        <field name="name">product.template.search.attributes</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_search_view"/>
+        <field name="arch" type="xml">
+            <!-- Add generated_sku to search fields -->
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="generated_sku" string="Mã SKU"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
